@@ -14,9 +14,9 @@ export default function Home() {
       <AboutMe />
       <Testimonial />
       <MyPortfolio />
-      
-      <ContactMe />
-   
+      <p style={{ textAlign: "center", marginTop: "-2rem", marginBottom: "1rem" }}>
+        Made with 💖 by Vishal Mishra
+      </p>
     </>
   );
 }

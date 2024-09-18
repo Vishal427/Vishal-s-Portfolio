@@ -1,0 +1,48 @@
+/* AboutMe.css */
+
+/* Add styles to the overall section */
+.about--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+   
+    border-radius: 2px;
+   
+  }
+  
+  /* Style the image container */
+  .about--section--img {
+    flex: 1;
+    
+  }
+  
+  /* Style the content container */
+  .hero--section--content--box {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  /* Add styles to the content inside the container */
+  .hero--section--content {
+    color: #333;
+  }
+  
+  .section--title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for the title */
+  }
+  
+  .skills-section--heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black; /* Green color for the heading */
+  }
+  
+  .hero--section-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  

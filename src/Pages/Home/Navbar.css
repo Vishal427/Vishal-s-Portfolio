@@ -1,0 +1,117 @@
+/* Navbar.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+    background-color: #f4f4f4; /* Set your desired background color */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db; /* Set your desired background color */
+    color: #fff; /* Set text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Set text color */
+  }
+  
+  .nav__hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    color: #fff; /* Set text color */
+  }
+  
+  .nav__hamburger__line {
+    height: 3px;
+    width: 25px;
+    background-color: #fff; /* Set text color */
+    margin: 5px 0;
+  }
+  
+  /* Navbar items */
+  .navbar--items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar--items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar--items li {
+    margin-right: 20px;
+  }
+  
+  .navbar--items a {
+    color: #fff; /* Set text color */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar--items a:hover {
+    color: #ecf0f1; /* Set hover text color */
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .nav__hamburger {
+      display: flex;
+    }
+  
+    .navbar--items {
+      flex-direction: column;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      background-color: #3498db; /* Set your desired background color */
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+    }
+  
+    .navbar--items.active {
+      max-height: 300px;
+    }
+  
+    .mobile-sidebar-overlay {
+      display: none;
+      background: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999;
+    }
+  
+    .mobile-sidebar-overlay.active {
+      display: block;
+    }
+  }
+  

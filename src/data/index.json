@@ -1,77 +1,80 @@
 {
-    "skills": [
-      {
-        "id": "1",
-        "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Building responsive website frontend using React JS , Bootstrap , CSS, Tailwind CSS, HTML and JavaScript "
-      },
-      {
-        "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Back-End ",
-        "description": "Experience to develop application using node.js with MongoDB and Express.js"
-      },
-      {
-        "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Developing responsive User Interface using designing tools and frameworks : CSS3 and CSS"
-      },
-      {
-        "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Deployment",
-        "description": "Hosting and maintaining websites on virtual machine instances along with integration of databases"
-      }
-    ],
-    "portfolio": [
-      {
-        "id": "1",
-        "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
-      },
-      {
-        "id": "2",
-        "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
-      },
-      {
-        "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "./img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
-    ]
-  }
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Building responsive website frontend using React JS , Bootstrap , CSS, Tailwind CSS, HTML and JavaScript "
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End ",
+      "description": "Experience to develop application using node.js with MongoDB and Express.js"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Developing responsive User Interface using designing tools and frameworks : CSS3 and CSS"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Deployment",
+      "description": "Hosting and maintaining websites on virtual machine instances along with integration of databases"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/placeholder-image.png",
+      "title": "Hotels Booking Web Applications",
+      "description": "The Hotels Booking Web Application is a user-friendly platform developed using React.js that allows users to search, compare, and book hotels effortlessly. This application provides a seamless experience providing users with a hassle-free booking experience.",
+      "link": "View",
+      "url": "https://abhyaranyan.com/" 
+    },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image-1.png",
+      "title": "Job Portal Application",
+      "description": "The Job Portal Application is a comprehensive platform developed using React.js that connects job seekers with employers, facilitating a streamlined hiring process. This application offers an array of features designed to enhance user experience for both job seekers and recruiters",
+      "link": "View ",
+      "url": "https://hirejobindia.com/" 
+    },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image-2.png",
+      "title": "E-commercials web Applications",
+      "description": "The E-commerce Web Application is a robust platform developed using React.js that provides a seamless shopping experience for users. This application is designed to facilitate online buying and selling, featuring a wide range of functionalities to enhance user engagement and streamline transactions",
+      "link": "View ",
+      "url": "https://angavastram.in/" 
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
