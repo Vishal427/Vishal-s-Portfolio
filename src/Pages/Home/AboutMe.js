@@ -13,7 +13,7 @@ export default function AboutMe() {
         </div>
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
-            <p className="section--title">Designs</p>
+            <p className="section--title">Design</p>
             <h1 className="skills-section--heading">Design & Framework</h1>
 
             <div className='lg:w-[35rem]' style={{ fontFamily: "auto" }}>
